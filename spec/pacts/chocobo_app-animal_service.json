@@ -1,0 +1,33 @@
+{
+  "consumer": {
+    "name": "Chocobo app"
+  },
+  "provider": {
+    "name": "Animal Service"
+  },
+  "interactions": [
+    {
+      "description": "a request for a chocobo",
+      "providerState": "a chocobo exists",
+      "request": {
+        "method": "get",
+        "path": "/chocobo",
+        "query": ""
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "name": "Sally"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}

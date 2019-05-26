@@ -1,0 +1,46 @@
+I, [2019-05-26T22:08:32.252768 #32532]  INFO -- : Cleared interactions for example "AnimalServiceClient get_chocobo returns a chocobo"
+I, [2019-05-26T22:08:32.253880 #32532]  INFO -- : Registered expected interaction GET /chocobo
+D, [2019-05-26T22:08:32.253948 #32532] DEBUG -- : {
+  "description": "a request for a chocobo",
+  "providerState": "a chocobo exists",
+  "request": {
+    "method": "get",
+    "path": "/chocobo",
+    "query": ""
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "name": "Sally"
+    }
+  }
+}
+I, [2019-05-26T22:08:32.254759 #32532]  INFO -- : Received request GET /chocobo
+D, [2019-05-26T22:08:32.254811 #32532] DEBUG -- : {
+  "path": "/chocobo",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept-Encoding": "gzip;q=1.0,deflate;q=0.6,identity;q=0.3",
+    "Accept": "*/*",
+    "User-Agent": "Ruby",
+    "Connection": "close",
+    "Host": "localhost:1234",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2019-05-26T22:08:32.254886 #32532]  INFO -- : Found matching response for GET /chocobo
+D, [2019-05-26T22:08:32.254919 #32532] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "name": "Sally"
+  }
+}
+I, [2019-05-26T22:08:32.255954 #32532]  INFO -- : Verifying - interactions matched for example "AnimalServiceClient get_chocobo returns a chocobo"
+I, [2019-05-26T22:08:32.257074 #32532]  INFO -- : Writing pact for Animal Service to /home/pyro/code/ruby/pact_consumer/spec/pacts/chocobo_app-animal_service.json
