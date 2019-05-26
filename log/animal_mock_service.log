@@ -1,6 +1,6 @@
-I, [2019-05-26T22:08:32.252768 #32532]  INFO -- : Cleared interactions for example "AnimalServiceClient get_chocobo returns a chocobo"
-I, [2019-05-26T22:08:32.253880 #32532]  INFO -- : Registered expected interaction GET /chocobo
-D, [2019-05-26T22:08:32.253948 #32532] DEBUG -- : {
+I, [2019-05-26T23:08:24.778409 #3833]  INFO -- : Cleared interactions for example "AnimalServiceClient get_chocobo returns a chocobo"
+I, [2019-05-26T23:08:24.779444 #3833]  INFO -- : Registered expected interaction GET /chocobo
+D, [2019-05-26T23:08:24.779503 #3833] DEBUG -- : {
   "description": "a request for a chocobo",
   "providerState": "a chocobo exists",
   "request": {
@@ -18,8 +18,8 @@ D, [2019-05-26T22:08:32.253948 #32532] DEBUG -- : {
     }
   }
 }
-I, [2019-05-26T22:08:32.254759 #32532]  INFO -- : Received request GET /chocobo
-D, [2019-05-26T22:08:32.254811 #32532] DEBUG -- : {
+I, [2019-05-26T23:08:24.780310 #3833]  INFO -- : Received request GET /chocobo
+D, [2019-05-26T23:08:24.780362 #3833] DEBUG -- : {
   "path": "/chocobo",
   "query": "",
   "method": "get",
@@ -32,8 +32,8 @@ D, [2019-05-26T22:08:32.254811 #32532] DEBUG -- : {
     "Version": "HTTP/1.1"
   }
 }
-I, [2019-05-26T22:08:32.254886 #32532]  INFO -- : Found matching response for GET /chocobo
-D, [2019-05-26T22:08:32.254919 #32532] DEBUG -- : {
+I, [2019-05-26T23:08:24.780439 #3833]  INFO -- : Found matching response for GET /chocobo
+D, [2019-05-26T23:08:24.780473 #3833] DEBUG -- : {
   "status": 200,
   "headers": {
     "Content-Type": "application/json"
@@ -42,5 +42,5 @@ D, [2019-05-26T22:08:32.254919 #32532] DEBUG -- : {
     "name": "Sally"
   }
 }
-I, [2019-05-26T22:08:32.255954 #32532]  INFO -- : Verifying - interactions matched for example "AnimalServiceClient get_chocobo returns a chocobo"
-I, [2019-05-26T22:08:32.257074 #32532]  INFO -- : Writing pact for Animal Service to /home/pyro/code/ruby/pact_consumer/spec/pacts/chocobo_app-animal_service.json
+I, [2019-05-26T23:08:24.781466 #3833]  INFO -- : Verifying - interactions matched for example "AnimalServiceClient get_chocobo returns a chocobo"
+I, [2019-05-26T23:08:24.782743 #3833]  INFO -- : Writing pact for Animal Service to /home/pyro/code/ruby/pact_consumer/spec/pacts/chocobo_app-animal_service.json

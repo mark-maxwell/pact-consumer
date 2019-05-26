@@ -24,3 +24,13 @@ I, [2019-05-26T22:08:32.224503 #32532]  INFO -- : Started on port 1234
 I, [2019-05-26T22:08:32.251844 #32532]  INFO -- : Clearing all expectations
 I, [2019-05-26T22:08:32.255437 #32532]  INFO -- : Verifying interactions for AnimalServiceClient get_chocobo returns a chocobo
 D, [2019-05-26T22:08:32.257684 #32532] DEBUG -- : Supposed to be stopping
+I, [2019-05-26T23:00:50.642129 #3428]  INFO -- : Starting app Animal Service #<Pact::MockService::App:0x000055d7da629de8> on port 1234...
+I, [2019-05-26T23:00:50.745982 #3428]  INFO -- : Started on port 1234
+I, [2019-05-26T23:00:50.773284 #3428]  INFO -- : Clearing all expectations
+I, [2019-05-26T23:00:50.776688 #3428]  INFO -- : Verifying interactions for AnimalServiceClient get_chocobo returns a chocobo
+D, [2019-05-26T23:00:50.779115 #3428] DEBUG -- : Supposed to be stopping
+I, [2019-05-26T23:08:24.646546 #3833]  INFO -- : Starting app Animal Service #<Pact::MockService::App:0x000055cc48922308> on port 1234...
+I, [2019-05-26T23:08:24.750363 #3833]  INFO -- : Started on port 1234
+I, [2019-05-26T23:08:24.777522 #3833]  INFO -- : Clearing all expectations
+I, [2019-05-26T23:08:24.780944 #3833]  INFO -- : Verifying interactions for AnimalServiceClient get_chocobo returns a chocobo
+D, [2019-05-26T23:08:24.783493 #3833] DEBUG -- : Supposed to be stopping
